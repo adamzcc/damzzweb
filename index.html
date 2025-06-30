@@ -1,0 +1,83 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>damzzweb</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    /* Animasi saat halaman muncul */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #dff6ff, #bde0fe);
+      color: #333;
+      animation: fadeIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0077b6;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      color: #0077b6;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .sosmed {
+      margin-top: 30px;
+    }
+
+    .sosmed a {
+      margin: 0 15px;
+      font-size: 30px;
+      color: #555;
+      transition: transform 0.3s, color 0.3s;
+    }
+
+    .sosmed a:hover {
+      color: #0077b6;
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Ganti URL gambar dengan foto kamu -->
+    <img src="https://iili.io/F5DbKzB.jpg" alt="Foto Profil" class="profile-img">
+    
+    <h1>Halo, Saya Muhammad Adam Zordan</h1>
+    <p>Selamat datang di web pribadi saya!</p>
+
+    <div class="sosmed">
+      <a href="https://wa.me/62895602691802" target="_blank"><i class="fab fa-whatsapp" style="color:#25D366;"></i></a>
+      <a href="https://www.instagram.com/dammzorr" target="_blank"><i class="fab fa-instagram" style="color:#E1306C;"></i></a>
+      <a href="https://www.tiktok.com/@damzxl8" target="_blank"><i class="fab fa-tiktok" style="color:#000;"></i></a>
+    </div>
+  </div>
+</body>
+</html>
